@@ -52,3 +52,24 @@ print(utterance)
 
 with open('utterance.txt','w') as f:
     f.write(str(utterance))
+#Output
+# call_intent Phone {contact} please
+# call_intent Phone {contact} 
+# call_intent Call {contact} please
+# call_intent Call {contact} 
+# call_intent Telephone {contact} please
+# call_intent Telephone {contact} 
+# add_intent Add those values
+# add_intent Add those numbers
+# add_intent Add those answers
+# add_intent Add the values
+# add_intent Add the numbers
+# add_intent Add the answers
+# add_intent Add {first_number} and {second_number}
+# add_intent Sum those values
+# add_intent Sum those numbers
+# add_intent Sum those answers
+# add_intent Sum the values
+# add_intent Sum the numbers
+# add_intent Sum the answers
+# add_intent Sum {first_number} and {second_number}
